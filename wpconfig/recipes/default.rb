@@ -5,5 +5,5 @@ cookbook_file "/srv/www/wordpress/current/wp-config.php" do
   owner 'deploy'
   group 'www-data'
   echo 'Hugh'
-  Chef::Log.debug("Skipping deploy::nodejs application Hugh Hugh as it is not a node.js app")
+  Chef::Log.info 'Hugh HUGH hUGH huGH ahahahahaha'
 end
