@@ -4,6 +4,5 @@ cookbook_file "/srv/www/wordpress/current/wp-config.php" do
   action :create
   owner 'deploy'
   group 'www-data'
-  echo 'Hugh'
   Chef::Log.info 'Hugh HUGH hUGH huGH ahahahahaha'
 end
