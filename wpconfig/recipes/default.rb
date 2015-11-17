@@ -4,4 +4,6 @@ cookbook_file "/srv/www/wordpress/current/wp-config.php" do
   action :create
   owner 'deploy'
   group 'www-data'
+  echo 'Hugh'
+  Chef::Log.debug("Skipping deploy::nodejs application Hugh Hugh as it is not a node.js app")
 end
